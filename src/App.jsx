@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import Country from './Component/Country/Country';
-import Calculate from './Component/Country/Calculate/Calculate';
+import Calculate from './Component/Calculate/Calculate';
 
 function App() {
   const [countries, setcountries] = useState([]);
